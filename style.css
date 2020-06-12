@@ -1,0 +1,12 @@
+@font-face {
+  font-family: Dealerplate;
+  src: url(DealerplateCalifornia.ttf);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Dealerplate;
+}
+
+p {
+	font: 
+}
