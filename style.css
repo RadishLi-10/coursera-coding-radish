@@ -17,16 +17,21 @@ a {
 	font: AGL;
 }
 
-.break {
-	color: white;
-}
-
 body {
 	background-color: #ffffff;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
+	font-family: Header;
+	text-align: center;
+}
+h2, h3, h4, h5, h6 {
   font-family: Header;
+  text-align: center;
+}
+
+nav {
+	text-align: right;
 }
 
 .code {
@@ -36,10 +41,46 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .text {
-	font-family: text
+	font-family: AGL;
 	color: black;
 }
 
-.link {
-	font-family: AGL 
+.link1 {
+	color: blue; 
+	font-family: AGL; 
+	font-size: 20px;
+	text-decoration: underline;
+	text-decoration-color: #ffffff 
+}
+
+.link2 {
+	color: blue; 
+	font-family: AGL;
+	font-size: 18px;
+	text-decoration: underline;
+	text-decoration-color: #ffffff 
+}
+
+.link3 {
+	color: blue; 
+	font-family: AGL; 
+	font-size: 16px;
+	text-decoration: underline;
+	text-decoration-color: #ffffff 
+}
+
+.link4 {
+	color: blue; 
+	font-family: AGL; 
+	font-size: 14px;
+	text-decoration: underline;
+	text-decoration-color: #ffffff 
+}
+
+.break {
+	color: white;
+}
+
+.nav {
+	font-size: 24px;
 }
