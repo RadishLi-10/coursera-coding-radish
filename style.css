@@ -8,6 +8,10 @@
   src: url(Courier.ttf);
 }
 
+body {
+	background-color: #3333ff;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: Dealerplate;
 }
