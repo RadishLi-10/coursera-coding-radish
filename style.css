@@ -3,6 +3,17 @@
   src: url(DealerplateCalifornia.ttf);
 }
 
+@font-face {
+  font-family: Code;
+  src: url(DealerplateCalifornia.ttf);
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: Dealerplate;
+}
+
+.code {
+	font-family: Code;
+	background: black;
+	color: white;
 }
