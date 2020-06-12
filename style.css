@@ -1,6 +1,6 @@
 @font-face {
-  font-family: Dealerplate;
-  src: url(DealerplateCalifornia.ttf);
+  font-family: Header;
+  src: url(AkzidenzGrotesk.ttf);
 }
 
 @font-face {
@@ -8,16 +8,38 @@
   src: url(Courier.ttf);
 }
 
+@font-face {
+  font-family: AGL;
+  src: url(AkzidenzGroteskLight.ttf);
+}
+
+a {
+	font: AGL;
+}
+
+.break {
+	color: white;
+}
+
 body {
-	background-color: #3333ff;
+	background-color: #ffffff;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Dealerplate;
+  font-family: Header;
 }
 
 .code {
 	font-family: Code;
 	background: black;
 	color: white;
+}
+
+.text {
+	font-family: text
+	color: black;
+}
+
+.link {
+	font-family: AGL 
 }
