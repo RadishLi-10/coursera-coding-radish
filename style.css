@@ -13,6 +13,10 @@
   src: url(AkzidenzGroteskLight.ttf);
 }
 
+* {
+	box-sizing: border-box;
+}
+
 a {
 	font: AGL;
 }
@@ -25,6 +29,7 @@ h1 {
 	font-family: Header;
 	text-align: center;
 }
+
 h2, h3, h4, h5, h6 {
   font-family: Header;
   text-align: center;
@@ -33,6 +38,8 @@ h2, h3, h4, h5, h6 {
 nav {
 	text-align: right;
 }
+
+
 
 .code {
 	font-family: Code;
@@ -49,32 +56,56 @@ nav {
 	color: blue; 
 	font-family: AGL; 
 	font-size: 20px;
-	text-decoration: underline;
-	text-decoration-color: #ffffff 
+	text-decoration: none;
+	text-decoration-color: #ffffff;
+}
+
+.link1:hover, .link1:active {
+	color: black; 
+	font-family: AGL; 
+	font-size: 24px;
+	text-decoration: none;
+	text-decoration-color: #ffffff;
 }
 
 .link2 {
 	color: blue; 
 	font-family: AGL;
 	font-size: 18px;
-	text-decoration: underline;
-	text-decoration-color: #ffffff 
+	text-decoration: none;
+	text-decoration-color: #ffffff;
+}
+
+.link2:hover, .link2:active {
+	color: black; 
+	font-family: AGL;
+	font-size: 22px;
+	text-decoration: none;
+	text-decoration-color: #ffffff;
 }
 
 .link3 {
 	color: blue; 
 	font-family: AGL; 
 	font-size: 16px;
-	text-decoration: underline;
-	text-decoration-color: #ffffff 
+	text-decoration: none;
+	text-decoration-color: #ffffff; 
+}
+
+.link3:hover, .link3:active {
+	color: black; 
+	font-family: AGL; 
+	font-size: 20px;
+	text-decoration: none;
+	text-decoration-color: #ffffff;
 }
 
 .link4 {
 	color: blue; 
 	font-family: AGL; 
 	font-size: 14px;
-	text-decoration: underline;
-	text-decoration-color: #ffffff 
+	text-decoration: none;
+	text-decoration-color: #ffffff;
 }
 
 .break {
@@ -83,4 +114,5 @@ nav {
 
 .nav {
 	font-size: 24px;
+	font-family: Header;
 }
