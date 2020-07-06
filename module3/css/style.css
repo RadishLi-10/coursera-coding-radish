@@ -1,0 +1,33 @@
+/*@font-face {
+
+}*/
+
+body {
+	color: #ffffff;
+	background-color: #5ccfe6;
+
+}
+
+header {
+	width: 100%;
+}
+
+nav {
+	background-color: #5ce698;
+	width: 100%;
+}
+
+#logo-img {
+	background: url('/radish.png') no-repeat;
+	width: 92px;
+	height: 96px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+	color: #007bff;
+}
+
+.jumbotron {
+	background-color: #e6ba5c;
+}
